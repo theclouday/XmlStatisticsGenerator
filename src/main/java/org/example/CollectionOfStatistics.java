@@ -1,11 +1,11 @@
 package org.example;
 import com.fasterxml.jackson.core.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
 
@@ -30,7 +30,7 @@ public class CollectionOfStatistics {
             tasks.add(() -> {
                 try {
                     File file = new File(fileName);
-                    return parseFiles(file, "year_published");
+                    return parseFile(file, "genre");
                 }catch (Exception e) {
                     System.err.println("Something wrong " + e.getMessage());
                     e.printStackTrace();
@@ -60,7 +60,7 @@ public class CollectionOfStatistics {
         return statisticsList;
     }
 
-    private BookStatistics parseFiles(File file, String targetFieldName) throws IOException {
+    private BookStatistics parseFile(File file, String targetFieldName) throws IOException {
         System.out.println("Parsing file: " + file.getAbsolutePath());
 
         JsonFactory factory = new JsonFactory();
@@ -75,7 +75,12 @@ public class CollectionOfStatistics {
                 parser.nextToken();
 
                 if (targetFieldName.equals(fieldName)){
-                    statistics.incrementValue(parser.getValueAsString());
+                    String fieldValue = parser.getValueAsString();
+                    List<String> valuesList = Arrays.asList(fieldValue.split(", "));
+
+                    for (String value : valuesList) {
+                        statistics.incrementValue(value);
+                    }
                 }
             }
         }
