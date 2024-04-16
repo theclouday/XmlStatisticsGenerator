@@ -1,0 +1,499 @@
+[{
+    "title": "Pride and Prejudice",
+    "author": "Lewis Carroll",
+    "year_published": 1926,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Sound and the Fury",
+    "author": "David Foster Wallace",
+    "year_published": 1961,
+    "genre": "Horror"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Dylan Thomas",
+    "year_published": 1906,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "A Tale of Two Cities",
+    "author": "Geoffrey Chaucer",
+    "year_published": 1808,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Tom Wolfe",
+    "year_published": 1739,
+    "genre": "Mystery"
+}
+, {
+    "title": "Steppenwolf",
+    "author": "Mark Twain",
+    "year_published": 1974,
+    "genre": "Romance"
+}
+, {
+    "title": "Winnie-the-Pooh",
+    "author": "Flannery O'Connor",
+    "year_published": 1857,
+    "genre": "Horror"
+}
+, {
+    "title": "Of Mice and Men",
+    "author": "D.H. Lawrence",
+    "year_published": 1953,
+    "genre": "Horror"
+}
+, {
+    "title": "Lord of the Flies",
+    "author": "Herman Melville",
+    "year_published": 1734,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Call of the Wild",
+    "author": "George Eliot",
+    "year_published": 1774,
+    "genre": "Horror"
+}
+, {
+    "title": "One Hundred Years of Solitude",
+    "author": "J.D. Vance",
+    "year_published": 1741,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Odyssey",
+    "author": "H.G. Wells",
+    "year_published": 1793,
+    "genre": "Drama"
+}
+, {
+    "title": "Faust",
+    "author": "Flannery O'Connor",
+    "year_published": 1827,
+    "genre": "Thriller"
+}
+, {
+    "title": "Steppenwolf",
+    "author": "J.M. Barrie",
+    "year_published": 1923,
+    "genre": "Horror"
+}
+, {
+    "title": "Pride and Prejudice",
+    "author": "Joseph Addison",
+    "year_published": 1770,
+    "genre": "Horror"
+}
+, {
+    "title": "The Odyssey",
+    "author": "James Baldwin",
+    "year_published": 1770,
+    "genre": "Thriller"
+}
+, {
+    "title": "Jane Eyre",
+    "author": "Saul Bellow",
+    "year_published": 1800,
+    "genre": "Drama"
+}
+, {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Joseph Addison",
+    "year_published": 1873,
+    "genre": "Horror"
+}
+, {
+    "title": "Jane Eyre",
+    "author": "D.H. Lawrence",
+    "year_published": 1774,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Chronicles of Narnia",
+    "author": "Samuel Beckett",
+    "year_published": 1807,
+    "genre": "Drama"
+}
+, {
+    "title": "Brave New World",
+    "author": "Edgar Allan Poe",
+    "year_published": 1922,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "Beatrix Potter",
+    "year_published": 1814,
+    "genre": "Thriller"
+}
+, {
+    "title": "A Tale of Two Cities",
+    "author": "Jane Austen",
+    "year_published": 1787,
+    "genre": "Mystery"
+}
+, {
+    "title": "Gulliver's Travels",
+    "author": "Dylan Thomas",
+    "year_published": 2005,
+    "genre": "Drama"
+}
+, {
+    "title": "A Game of Thrones",
+    "author": "Herman Melville",
+    "year_published": 2018,
+    "genre": "Romance"
+}
+, {
+    "title": "The Sound and the Fury",
+    "author": "Flannery O'Connor",
+    "year_published": 1768,
+    "genre": "Comedy"
+}
+, {
+    "title": "Mtsyri",
+    "author": "Willa Cather",
+    "year_published": 2008,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Chronicles of Narnia",
+    "author": "Virginia Woolf",
+    "year_published": 1948,
+    "genre": "Horror"
+}
+, {
+    "title": "Little Women",
+    "author": "Daniel Defoe",
+    "year_published": 1888,
+    "genre": "Romance"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Saul Bellow",
+    "year_published": 1750,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Lord of the Rings",
+    "author": "Ken Kesey",
+    "year_published": 1987,
+    "genre": "Mystery"
+}
+, {
+    "title": "1984",
+    "author": "Charlotte Bronte",
+    "year_published": 1826,
+    "genre": "Drama"
+}
+, {
+    "title": "Room No. 6",
+    "author": "Jonathan Swift",
+    "year_published": 2012,
+    "genre": "Romance"
+}
+, {
+    "title": "The Road",
+    "author": "H.G. Wells",
+    "year_published": 1774,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Willa Cather",
+    "year_published": 1868,
+    "genre": "Mystery"
+}
+, {
+    "title": "Pippi Longstocking",
+    "author": "Mark Twain",
+    "year_published": 1966,
+    "genre": "Comedy"
+}
+, {
+    "title": "To Kill a Mockingbird",
+    "author": "J.D. Vance",
+    "year_published": 1737,
+    "genre": "Horror"
+}
+, {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Saul Bellow",
+    "year_published": 1887,
+    "genre": "Adventure"
+}
+, {
+    "title": "Don Quixote",
+    "author": "Aldous Huxley",
+    "year_published": 1884,
+    "genre": "Romance"
+}
+, {
+    "title": "East of Eden",
+    "author": "A.A. Milne",
+    "year_published": 1810,
+    "genre": "Adventure"
+}
+, {
+    "title": "Inferno",
+    "author": "William Faulkner",
+    "year_published": 1732,
+    "genre": "Thriller"
+}
+, {
+    "title": "Flowers for Algernon",
+    "author": "Maya Angelou",
+    "year_published": 1739,
+    "genre": "Adventure"
+}
+, {
+    "title": "Quiet Flows the Don",
+    "author": "Mark Twain",
+    "year_published": 1825,
+    "genre": "Mystery"
+}
+, {
+    "title": "Wuthering Heights",
+    "author": "Ernest Hemingway",
+    "year_published": 1796,
+    "genre": "Romance"
+}
+, {
+    "title": "For Whom the Bell Tolls",
+    "author": "T.S. Eliot",
+    "year_published": 1724,
+    "genre": "Horror"
+}
+, {
+    "title": "Lord of the Flies",
+    "author": "J.D. Vance",
+    "year_published": 1761,
+    "genre": "Comedy"
+}
+, {
+    "title": "To Kill a Mockingbird",
+    "author": "Nathaniel Hawthorne",
+    "year_published": 2020,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Jungle Book",
+    "author": "William Blake",
+    "year_published": 2023,
+    "genre": "Romance"
+}
+, {
+    "title": "The Great Gatsby",
+    "author": "Joseph Conrad",
+    "year_published": 1712,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Winnie-the-Pooh",
+    "author": "J.K. Rowling",
+    "year_published": 1775,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Divine Comedy",
+    "author": "Ernest Hemingway",
+    "year_published": 2013,
+    "genre": "Mystery"
+}
+, {
+    "title": "Slaughterhouse-Five",
+    "author": "Aldous Huxley",
+    "year_published": 1946,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Sound and the Fury",
+    "author": "John Grisham",
+    "year_published": 1877,
+    "genre": "Romance"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Joseph Conrad",
+    "year_published": 1768,
+    "genre": "Horror"
+}
+, {
+    "title": "The Canterbury Tales",
+    "author": "Emily Bronte",
+    "year_published": 1771,
+    "genre": "Horror"
+}
+, {
+    "title": "Atlas Shrugged",
+    "author": "Langston Hughes",
+    "year_published": 1931,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Stranger",
+    "author": "Margaret Atwood",
+    "year_published": 1732,
+    "genre": "Romance"
+}
+, {
+    "title": "The Sun Also Rises",
+    "author": "Geoffrey Chaucer",
+    "year_published": 1770,
+    "genre": "Thriller"
+}
+, {
+    "title": "Don Quixote",
+    "author": "A.A. Milne",
+    "year_published": 1841,
+    "genre": "Comedy"
+}
+, {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "Mary Shelley",
+    "year_published": 1952,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Seagull",
+    "author": "Agatha Christie",
+    "year_published": 1814,
+    "genre": "Horror"
+}
+, {
+    "title": "Faust",
+    "author": "Harriet Beecher Stowe",
+    "year_published": 1732,
+    "genre": "Romance"
+}
+, {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Walt Whitman",
+    "year_published": 1990,
+    "genre": "Mystery"
+}
+, {
+    "title": "Room No. 6",
+    "author": "William Golding",
+    "year_published": 1797,
+    "genre": "Thriller"
+}
+, {
+    "title": "Room No. 6",
+    "author": "Harper Lee",
+    "year_published": 1877,
+    "genre": "Comedy"
+}
+, {
+    "title": "Quiet Flows the Don",
+    "author": "J.D. Salinger",
+    "year_published": 2017,
+    "genre": "Thriller"
+}
+, {
+    "title": "Wuthering Heights",
+    "author": "William Wordsworth",
+    "year_published": 1920,
+    "genre": "Thriller"
+}
+, {
+    "title": "Brave New World",
+    "author": "Willa Cather",
+    "year_published": 1903,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Wind in the Willows",
+    "author": "Tom Wolfe",
+    "year_published": 1849,
+    "genre": "Drama"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Zora Neale Hurston",
+    "year_published": 1982,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Star Wars",
+    "author": "Ian Fleming",
+    "year_published": 1841,
+    "genre": "Adventure"
+}
+, {
+    "title": "Flowers for Algernon",
+    "author": "John Steinbeck",
+    "year_published": 1889,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Little Prince",
+    "author": "Walt Whitman",
+    "year_published": 1827,
+    "genre": "Comedy"
+}
+, {
+    "title": "Pride and Prejudice",
+    "author": "Dylan Thomas",
+    "year_published": 1726,
+    "genre": "Adventure"
+}
+, {
+    "title": "Star Wars",
+    "author": "Thomas Malory",
+    "year_published": 1904,
+    "genre": "Horror"
+}
+, {
+    "title": "Faust",
+    "author": "J.R.R. Tolkien",
+    "year_published": 1821,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Thomas Malory",
+    "year_published": 1951,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Hobbit",
+    "author": "Ray Bradbury",
+    "year_published": 1789,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Fatherland",
+    "author": "Harper Lee",
+    "year_published": 1824,
+    "genre": "Mystery"
+}
+, {
+    "title": "Les Misérables",
+    "author": "Upton Sinclair",
+    "year_published": 1839,
+    "genre": "Horror"
+}
+, {
+    "title": "The Road",
+    "author": "Beatrix Potter",
+    "year_published": 1954,
+    "genre": "Comedy"
+}
+, {
+    "title": "Anne of Green Gables",
+    "author": "F. Scott Fitzgerald",
+    "year_published": 2019,
+    "genre": "Mystery"
+}
+, {
+    "title": "Pippi Longstocking",
+    "author": "John Donne",
+    "year_published": 1702,
+    "genre": "Horror"
+}
+]
