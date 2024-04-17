@@ -1,19 +1,17 @@
-package org.example;
+package ua.assignmentOne;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.example.MyApp.getArgs;
 
 public class GettingAllFiles {
 
-
-    public static List<String> getFiles() {
-        String pathToFile = getArgs()[0];
+    public static List<String> getFiles(String filePath) {
+        System.out.println(filePath);
 
         List<String> fileNames = new ArrayList<>();
-        File folder = new File(pathToFile);
+        File folder = new File(filePath);
         File[] files = folder.listFiles();
         try {
             for (File file: files){
