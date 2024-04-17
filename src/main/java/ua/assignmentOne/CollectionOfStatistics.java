@@ -1,16 +1,12 @@
-package org.example;
+package ua.assignmentOne;
 import com.fasterxml.jackson.core.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.*;
 
-import static org.example.GettingAllFiles.getFiles;
-import static org.example.MyApp.getArgs;
+import static ua.assignmentOne.GettingAllFiles.getFiles;
 
 public class CollectionOfStatistics {
     private final ExecutorService executor;
@@ -21,18 +17,18 @@ public class CollectionOfStatistics {
     }
 
 
-    public List<BookStatistics> makeStatistics(){
-        List<String> jsonFiles = getFiles();
-        String targetName = getArgs()[1];
+    public BookStatistics makeStatistics(String filePath, String targetFieldName){
+        List<String> jsonFiles = getFiles(filePath);
 
         List<BookStatistics> statisticsList = new ArrayList<>();
         List<Callable<BookStatistics>> tasks = new ArrayList<>();
+
 
         for(String fileName : jsonFiles) {
             tasks.add(() -> {
                 try {
                     File file = new File(fileName);
-                    return parseFile(file, targetName);
+                    return parseFile(file, targetFieldName);
                 }catch (Exception e) {
                     System.err.println("Something wrong " + e.getMessage());
                     e.printStackTrace();
@@ -57,9 +53,11 @@ public class CollectionOfStatistics {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-
         executor.shutdown();
-        return statisticsList;
+
+
+
+        return new BookStatistics(statisticsList);
     }
 
     private BookStatistics parseFile(File file, String targetFieldName) throws IOException {
