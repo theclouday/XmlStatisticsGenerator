@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 import static org.example.GettingAllFiles.getFiles;
+import static org.example.MyApp.getArgs;
 
 public class CollectionOfStatistics {
     private final ExecutorService executor;
@@ -22,6 +23,7 @@ public class CollectionOfStatistics {
 
     public List<BookStatistics> makeStatistics(){
         List<String> jsonFiles = getFiles();
+        String targetName = getArgs()[1];
 
         List<BookStatistics> statisticsList = new ArrayList<>();
         List<Callable<BookStatistics>> tasks = new ArrayList<>();
@@ -30,7 +32,7 @@ public class CollectionOfStatistics {
             tasks.add(() -> {
                 try {
                     File file = new File(fileName);
-                    return parseFile(file, "genre");
+                    return parseFile(file, targetName);
                 }catch (Exception e) {
                     System.err.println("Something wrong " + e.getMessage());
                     e.printStackTrace();
