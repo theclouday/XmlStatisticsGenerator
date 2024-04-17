@@ -13,9 +13,6 @@ public class BookStatistics {
     @JsonProperty("items")
     List<BookStatisticsItem> statisticsItemList = new ArrayList<>();
 
-    public BookStatistics() {
-
-    }
 
     public void incrementValue(String value) {
         for (BookStatisticsItem item : statisticsItemList) {
@@ -24,7 +21,6 @@ public class BookStatistics {
                 return;
             }
         }
-
         statisticsItemList.add(new BookStatisticsItem(value));
     }
 
