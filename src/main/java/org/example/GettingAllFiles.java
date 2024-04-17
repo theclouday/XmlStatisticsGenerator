@@ -4,20 +4,13 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.example.MyApp.getArgs;
+
 public class GettingAllFiles {
 
-    private static String path;
-
-    public static String getPath() {
-        return path;
-    }
-
-    public GettingAllFiles(String path) {
-        this.path = path;
-    }
 
     public static List<String> getFiles() {
-        String pathToFile = GettingAllFiles.getPath();
+        String pathToFile = getArgs()[0];
 
         List<String> fileNames = new ArrayList<>();
         File folder = new File(pathToFile);
