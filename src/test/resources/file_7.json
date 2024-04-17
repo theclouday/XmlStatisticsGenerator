@@ -1,0 +1,445 @@
+[{
+    "title": "A Game of Thrones",
+    "author": "Truman Capote",
+    "year_published": 1738,
+    "genre": "Romance"
+}
+, {
+    "title": "Ulysses",
+    "author": "Daniel Defoe",
+    "year_published": 1905,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Gone with the Wind",
+    "author": "Virginia Woolf",
+    "year_published": 1769,
+    "genre": "Drama"
+}
+, {
+    "title": "Ulysses",
+    "author": "Ernest Hemingway",
+    "year_published": 2021,
+    "genre": "Romance"
+}
+, {
+    "title": "The Stranger",
+    "author": "Mark Twain",
+    "year_published": 1860,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Masque of the Red Death",
+    "author": "Upton Sinclair",
+    "year_published": 1732,
+    "genre": "Horror"
+}
+, {
+    "title": "1984",
+    "author": "W. Somerset Maugham",
+    "year_published": 1854,
+    "genre": "Drama"
+}
+, {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Edith Wharton",
+    "year_published": 2017,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Odyssey",
+    "author": "Jack Kerouac",
+    "year_published": 1837,
+    "genre": "Drama"
+}
+, {
+    "title": "The Handmaid's Tale",
+    "author": "J.M. Barrie",
+    "year_published": 1988,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Dracula",
+    "author": "W. Somerset Maugham",
+    "year_published": 1989,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Henry James",
+    "year_published": 1989,
+    "genre": "Romance"
+}
+, {
+    "title": "Don Quixote",
+    "author": "David Foster Wallace",
+    "year_published": 1871,
+    "genre": "Horror"
+}
+, {
+    "title": "Winnie-the-Pooh",
+    "author": "Ralph Waldo Emerson",
+    "year_published": 2011,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Little Prince",
+    "author": "Edith Wharton",
+    "year_published": 1952,
+    "genre": "Drama"
+}
+, {
+    "title": "Pippi Longstocking",
+    "author": "Don DeLillo",
+    "year_published": 1972,
+    "genre": "Comedy"
+}
+, {
+    "title": "Animal Farm",
+    "author": "Richard Wright",
+    "year_published": 1733,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Color Purple",
+    "author": "Herman Melville",
+    "year_published": 1737,
+    "genre": "Thriller"
+}
+, {
+    "title": "Slaughterhouse-Five",
+    "author": "James Fenimore Cooper",
+    "year_published": 1890,
+    "genre": "Adventure"
+}
+, {
+    "title": "Of Mice and Men",
+    "author": "Agatha Christie",
+    "year_published": 2004,
+    "genre": "Drama"
+}
+, {
+    "title": "The Green Mile",
+    "author": "Bram Stoker",
+    "year_published": 1797,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Color Purple",
+    "author": "Ian Fleming",
+    "year_published": 1716,
+    "genre": "Comedy"
+}
+, {
+    "title": "And Then There Were None",
+    "author": "Michael Crichton",
+    "year_published": 1881,
+    "genre": "Romance"
+}
+, {
+    "title": "The Canterbury Tales",
+    "author": "James Fenimore Cooper",
+    "year_published": 1760,
+    "genre": "Horror"
+}
+, {
+    "title": "The Bell Jar",
+    "author": "Aldous Huxley",
+    "year_published": 1701,
+    "genre": "Romance"
+}
+, {
+    "title": "Fatherland",
+    "author": "George Orwell",
+    "year_published": 1789,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Great Gatsby",
+    "author": "Isaac Asimov",
+    "year_published": 1804,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Godfather",
+    "author": "H.P. Lovecraft",
+    "year_published": 1959,
+    "genre": "Thriller"
+}
+, {
+    "title": "To Kill a Mockingbird",
+    "author": "William Blake",
+    "year_published": 1840,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Brave New World",
+    "author": "Jack Kerouac",
+    "year_published": 1757,
+    "genre": "Drama"
+}
+, {
+    "title": "The Handmaid's Tale",
+    "author": "Sylvia Plath",
+    "year_published": 1913,
+    "genre": "Drama"
+}
+, {
+    "title": "The Divine Comedy",
+    "author": "Emily Dickinson",
+    "year_published": 1891,
+    "genre": "Romance"
+}
+, {
+    "title": "Faust",
+    "author": "James Baldwin",
+    "year_published": 1881,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Green Mile",
+    "author": "William Wordsworth",
+    "year_published": 1988,
+    "genre": "Horror"
+}
+, {
+    "title": "Charlotte's Web",
+    "author": "W. Somerset Maugham",
+    "year_published": 1783,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Sun Also Rises",
+    "author": "Mark Twain",
+    "year_published": 1730,
+    "genre": "Thriller"
+}
+, {
+    "title": "And Then There Were None",
+    "author": "E.M. Forster",
+    "year_published": 1886,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Count of Monte Cristo",
+    "author": "William Blake",
+    "year_published": 1910,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Godfather",
+    "author": "J.D. Salinger",
+    "year_published": 1984,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Princess Bride",
+    "author": "Jack London",
+    "year_published": 1722,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Fatherland",
+    "author": "Stephen King",
+    "year_published": 1849,
+    "genre": "Fantasy"
+}
+, {
+    "title": "And Then There Were None",
+    "author": "Herman Melville",
+    "year_published": 1945,
+    "genre": "Romance"
+}
+, {
+    "title": "Romeo and Juliet",
+    "author": "William Wordsworth",
+    "year_published": 1919,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Fatherland",
+    "author": "Ray Bradbury",
+    "year_published": 1976,
+    "genre": "Mystery"
+}
+, {
+    "title": "Slaughterhouse-Five",
+    "author": "Agatha Christie",
+    "year_published": 1953,
+    "genre": "Romance"
+}
+, {
+    "title": "Mtsyri",
+    "author": "Joseph Addison",
+    "year_published": 1852,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Treasure Island",
+    "author": "Don DeLillo",
+    "year_published": 1831,
+    "genre": "Drama"
+}
+, {
+    "title": "Crime and Punishment",
+    "author": "Stephen King",
+    "year_published": 1784,
+    "genre": "Horror"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "Saul Bellow",
+    "year_published": 2009,
+    "genre": "Horror"
+}
+, {
+    "title": "The Call of the Wild",
+    "author": "D.H. Lawrence",
+    "year_published": 1701,
+    "genre": "Drama"
+}
+, {
+    "title": "Anna Karenina",
+    "author": "John Steinbeck",
+    "year_published": 1901,
+    "genre": "Adventure"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Ian Fleming",
+    "year_published": 1905,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "Richard Wright",
+    "year_published": 1927,
+    "genre": "Horror"
+}
+, {
+    "title": "The Seagull",
+    "author": "John Keats",
+    "year_published": 1787,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Watership Down",
+    "author": "Tom Wolfe",
+    "year_published": 1848,
+    "genre": "Romance"
+}
+, {
+    "title": "1984",
+    "author": "Tom Wolfe",
+    "year_published": 1783,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Handmaid's Tale",
+    "author": "Lewis Carroll",
+    "year_published": 1842,
+    "genre": "Horror"
+}
+, {
+    "title": "The Color Purple",
+    "author": "Virginia Woolf",
+    "year_published": 1760,
+    "genre": "Romance"
+}
+, {
+    "title": "The Color Purple",
+    "author": "Thomas Malory",
+    "year_published": 1900,
+    "genre": "Romance"
+}
+, {
+    "title": "And Then There Were None",
+    "author": "Langston Hughes",
+    "year_published": 1947,
+    "genre": "Drama"
+}
+, {
+    "title": "And Then There Were None",
+    "author": "William Blake",
+    "year_published": 1731,
+    "genre": "Thriller"
+}
+, {
+    "title": "1984",
+    "author": "Joseph Addison",
+    "year_published": 1931,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Bram Stoker",
+    "year_published": 1829,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Stranger",
+    "author": "Herman Melville",
+    "year_published": 1968,
+    "genre": "Horror"
+}
+, {
+    "title": "The Brothers Karamazov",
+    "author": "W. Somerset Maugham",
+    "year_published": 2014,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Wind in the Willows",
+    "author": "John Bunyan",
+    "year_published": 1881,
+    "genre": "Drama"
+}
+, {
+    "title": "The Little Prince",
+    "author": "Thomas Malory",
+    "year_published": 1771,
+    "genre": "Adventure"
+}
+, {
+    "title": "Atlas Shrugged",
+    "author": "Upton Sinclair",
+    "year_published": 1972,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Bell Jar",
+    "author": "John Donne",
+    "year_published": 1818,
+    "genre": "Thriller"
+}
+, {
+    "title": "All Quiet on the Western Front",
+    "author": "Louisa May Alcott",
+    "year_published": 1799,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Seagull",
+    "author": "Jack London",
+    "year_published": 1733,
+    "genre": "Drama"
+}
+, {
+    "title": "Alice Through the Looking Glass",
+    "author": "Jane Austen",
+    "year_published": 1882,
+    "genre": "Thriller"
+}
+, {
+    "title": "For Whom the Bell Tolls",
+    "author": "J.D. Vance",
+    "year_published": 1907,
+    "genre": "Drama"
+}
+, {
+    "title": "Inferno",
+    "author": "William Blake",
+    "year_published": 1745,
+    "genre": "Drama"
+}
+]

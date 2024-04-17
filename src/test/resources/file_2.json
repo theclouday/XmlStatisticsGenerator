@@ -1,499 +1,463 @@
 [{
-    "title": "Pride and Prejudice",
-    "author": "Lewis Carroll",
-    "year_published": 1926,
-    "genre": "Comedy"
-}
-, {
-    "title": "The Sound and the Fury",
-    "author": "David Foster Wallace",
-    "year_published": 1961,
-    "genre": "Horror"
-}
-, {
-    "title": "Moby-Dick",
-    "author": "Dylan Thomas",
-    "year_published": 1906,
-    "genre": "Historical Fiction"
-}
-, {
-    "title": "A Tale of Two Cities",
-    "author": "Geoffrey Chaucer",
-    "year_published": 1808,
-    "genre": "Historical Fiction"
-}
-, {
-    "title": "The Adventures of Huckleberry Finn",
-    "author": "Tom Wolfe",
-    "year_published": 1739,
-    "genre": "Mystery"
-}
-, {
-    "title": "Steppenwolf",
-    "author": "Mark Twain",
-    "year_published": 1974,
-    "genre": "Romance"
-}
-, {
-    "title": "Winnie-the-Pooh",
-    "author": "Flannery O'Connor",
-    "year_published": 1857,
-    "genre": "Horror"
-}
-, {
-    "title": "Of Mice and Men",
-    "author": "D.H. Lawrence",
-    "year_published": 1953,
-    "genre": "Horror"
-}
-, {
-    "title": "Lord of the Flies",
-    "author": "Herman Melville",
-    "year_published": 1734,
-    "genre": "Mystery"
-}
-, {
-    "title": "The Call of the Wild",
-    "author": "George Eliot",
-    "year_published": 1774,
-    "genre": "Horror"
-}
-, {
-    "title": "One Hundred Years of Solitude",
-    "author": "J.D. Vance",
-    "year_published": 1741,
-    "genre": "Thriller"
-}
-, {
-    "title": "The Odyssey",
-    "author": "H.G. Wells",
-    "year_published": 1793,
-    "genre": "Drama"
-}
-, {
-    "title": "Faust",
-    "author": "Flannery O'Connor",
-    "year_published": 1827,
-    "genre": "Thriller"
-}
-, {
-    "title": "Steppenwolf",
-    "author": "J.M. Barrie",
-    "year_published": 1923,
-    "genre": "Horror"
-}
-, {
-    "title": "Pride and Prejudice",
-    "author": "Joseph Addison",
-    "year_published": 1770,
-    "genre": "Horror"
-}
-, {
-    "title": "The Odyssey",
-    "author": "James Baldwin",
-    "year_published": 1770,
-    "genre": "Thriller"
-}
-, {
-    "title": "Jane Eyre",
-    "author": "Saul Bellow",
-    "year_published": 1800,
-    "genre": "Drama"
-}
-, {
-    "title": "Alice's Adventures in Wonderland",
-    "author": "Joseph Addison",
-    "year_published": 1873,
-    "genre": "Horror"
-}
-, {
-    "title": "Jane Eyre",
-    "author": "D.H. Lawrence",
-    "year_published": 1774,
-    "genre": "Mystery"
-}
-, {
-    "title": "The Chronicles of Narnia",
-    "author": "Samuel Beckett",
-    "year_published": 1807,
-    "genre": "Drama"
-}
-, {
-    "title": "Brave New World",
-    "author": "Edgar Allan Poe",
-    "year_published": 1922,
-    "genre": "Thriller"
-}
-, {
-    "title": "The Picture of Dorian Gray",
-    "author": "Beatrix Potter",
-    "year_published": 1814,
-    "genre": "Thriller"
-}
-, {
-    "title": "A Tale of Two Cities",
-    "author": "Jane Austen",
-    "year_published": 1787,
-    "genre": "Mystery"
-}
-, {
-    "title": "Gulliver's Travels",
-    "author": "Dylan Thomas",
-    "year_published": 2005,
-    "genre": "Drama"
-}
-, {
-    "title": "A Game of Thrones",
-    "author": "Herman Melville",
-    "year_published": 2018,
-    "genre": "Romance"
-}
-, {
-    "title": "The Sound and the Fury",
-    "author": "Flannery O'Connor",
-    "year_published": 1768,
-    "genre": "Comedy"
-}
-, {
-    "title": "Mtsyri",
-    "author": "Willa Cather",
-    "year_published": 2008,
-    "genre": "Mystery"
-}
-, {
-    "title": "The Chronicles of Narnia",
-    "author": "Virginia Woolf",
-    "year_published": 1948,
-    "genre": "Horror"
-}
-, {
-    "title": "Little Women",
-    "author": "Daniel Defoe",
-    "year_published": 1888,
-    "genre": "Romance"
-}
-, {
-    "title": "The Catcher in the Rye",
-    "author": "Saul Bellow",
-    "year_published": 1750,
-    "genre": "Adventure"
-}
-, {
-    "title": "The Lord of the Rings",
-    "author": "Ken Kesey",
-    "year_published": 1987,
-    "genre": "Mystery"
-}
-, {
-    "title": "1984",
-    "author": "Charlotte Bronte",
-    "year_published": 1826,
-    "genre": "Drama"
-}
-, {
-    "title": "Room No. 6",
-    "author": "Jonathan Swift",
-    "year_published": 2012,
-    "genre": "Romance"
-}
-, {
-    "title": "The Road",
-    "author": "H.G. Wells",
-    "year_published": 1774,
-    "genre": "Thriller"
-}
-, {
-    "title": "The Hitchhiker's Guide to the Galaxy",
-    "author": "Willa Cather",
-    "year_published": 1868,
-    "genre": "Mystery"
-}
-, {
-    "title": "Pippi Longstocking",
-    "author": "Mark Twain",
-    "year_published": 1966,
-    "genre": "Comedy"
-}
-, {
-    "title": "To Kill a Mockingbird",
-    "author": "J.D. Vance",
-    "year_published": 1737,
-    "genre": "Horror"
-}
-, {
-    "title": "The Adventures of Huckleberry Finn",
-    "author": "Saul Bellow",
-    "year_published": 1887,
-    "genre": "Adventure"
-}
-, {
     "title": "Don Quixote",
-    "author": "Aldous Huxley",
-    "year_published": 1884,
-    "genre": "Romance"
-}
-, {
-    "title": "East of Eden",
-    "author": "A.A. Milne",
-    "year_published": 1810,
-    "genre": "Adventure"
-}
-, {
-    "title": "Inferno",
-    "author": "William Faulkner",
-    "year_published": 1732,
-    "genre": "Thriller"
-}
-, {
-    "title": "Flowers for Algernon",
-    "author": "Maya Angelou",
-    "year_published": 1739,
-    "genre": "Adventure"
-}
-, {
-    "title": "Quiet Flows the Don",
-    "author": "Mark Twain",
-    "year_published": 1825,
-    "genre": "Mystery"
-}
-, {
-    "title": "Wuthering Heights",
-    "author": "Ernest Hemingway",
-    "year_published": 1796,
-    "genre": "Romance"
-}
-, {
-    "title": "For Whom the Bell Tolls",
-    "author": "T.S. Eliot",
-    "year_published": 1724,
-    "genre": "Horror"
-}
-, {
-    "title": "Lord of the Flies",
-    "author": "J.D. Vance",
-    "year_published": 1761,
-    "genre": "Comedy"
-}
-, {
-    "title": "To Kill a Mockingbird",
-    "author": "Nathaniel Hawthorne",
-    "year_published": 2020,
-    "genre": "Mystery"
-}
-, {
-    "title": "The Jungle Book",
-    "author": "William Blake",
-    "year_published": 2023,
-    "genre": "Romance"
-}
-, {
-    "title": "The Great Gatsby",
-    "author": "Joseph Conrad",
-    "year_published": 1712,
-    "genre": "Historical Fiction"
-}
-, {
-    "title": "Winnie-the-Pooh",
-    "author": "J.K. Rowling",
-    "year_published": 1775,
-    "genre": "Historical Fiction"
-}
-, {
-    "title": "The Divine Comedy",
-    "author": "Ernest Hemingway",
-    "year_published": 2013,
-    "genre": "Mystery"
-}
-, {
-    "title": "Slaughterhouse-Five",
-    "author": "Aldous Huxley",
-    "year_published": 1946,
-    "genre": "Adventure"
-}
-, {
-    "title": "The Sound and the Fury",
-    "author": "John Grisham",
-    "year_published": 1877,
-    "genre": "Romance"
-}
-, {
-    "title": "The Catcher in the Rye",
-    "author": "Joseph Conrad",
-    "year_published": 1768,
-    "genre": "Horror"
-}
-, {
-    "title": "The Canterbury Tales",
-    "author": "Emily Bronte",
-    "year_published": 1771,
-    "genre": "Horror"
-}
-, {
-    "title": "Atlas Shrugged",
-    "author": "Langston Hughes",
-    "year_published": 1931,
+    "author": "James Baldwin",
+    "year_published": 2008,
     "genre": "Fantasy"
 }
 , {
-    "title": "The Stranger",
-    "author": "Margaret Atwood",
-    "year_published": 1732,
+    "title": "The Handmaid's Tale",
+    "author": "John Keats",
+    "year_published": 1984,
     "genre": "Romance"
 }
 , {
-    "title": "The Sun Also Rises",
-    "author": "Geoffrey Chaucer",
-    "year_published": 1770,
-    "genre": "Thriller"
-}
-, {
-    "title": "Don Quixote",
-    "author": "A.A. Milne",
-    "year_published": 1841,
-    "genre": "Comedy"
-}
-, {
-    "title": "Harry Potter and the Prisoner of Azkaban",
-    "author": "Mary Shelley",
-    "year_published": 1952,
-    "genre": "Thriller"
-}
-, {
-    "title": "The Seagull",
-    "author": "Agatha Christie",
-    "year_published": 1814,
+    "title": "The Da Vinci Code",
+    "author": "Emily Dickinson",
+    "year_published": 1750,
     "genre": "Horror"
 }
 , {
-    "title": "Faust",
-    "author": "Harriet Beecher Stowe",
-    "year_published": 1732,
-    "genre": "Romance"
+    "title": "The Green Mile",
+    "author": "J.K. Rowling",
+    "year_published": 1942,
+    "genre": "Adventure"
 }
 , {
-    "title": "The Adventures of Huckleberry Finn",
-    "author": "Walt Whitman",
-    "year_published": 1990,
+    "title": "The Da Vinci Code",
+    "author": "Upton Sinclair",
+    "year_published": 1834,
     "genre": "Mystery"
 }
 , {
-    "title": "Room No. 6",
-    "author": "William Golding",
-    "year_published": 1797,
+    "title": "Frankenstein",
+    "author": "Roald Dahl",
+    "year_published": 1883,
+    "genre": "Mystery"
+}
+, {
+    "title": "Atlas Shrugged",
+    "author": "J.M. Barrie",
+    "year_published": 1949,
+    "genre": "Romance"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "Edgar Allan Poe",
+    "year_published": 1710,
+    "genre": "Horror"
+}
+, {
+    "title": "Pride and Prejudice",
+    "author": "Ernest Hemingway",
+    "year_published": 1946,
     "genre": "Thriller"
 }
 , {
-    "title": "Room No. 6",
-    "author": "Harper Lee",
-    "year_published": 1877,
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Robert Frost",
+    "year_published": 1825,
+    "genre": "Drama"
+}
+, {
+    "title": "Jane Eyre",
+    "author": "Emily Dickinson",
+    "year_published": 1842,
+    "genre": "Thriller"
+}
+, {
+    "title": "Frankenstein",
+    "author": "Maya Angelou",
+    "year_published": 1984,
     "genre": "Comedy"
 }
 , {
-    "title": "Quiet Flows the Don",
-    "author": "J.D. Salinger",
-    "year_published": 2017,
-    "genre": "Thriller"
+    "title": "Steppenwolf",
+    "author": "Ernest Hemingway",
+    "year_published": 1771,
+    "genre": "Adventure"
 }
 , {
-    "title": "Wuthering Heights",
-    "author": "William Wordsworth",
-    "year_published": 1920,
-    "genre": "Thriller"
+    "title": "The Bell Jar",
+    "author": "Edgar Allan Poe",
+    "year_published": 1809,
+    "genre": "Horror"
 }
 , {
-    "title": "Brave New World",
-    "author": "Willa Cather",
+    "title": "To Kill a Mockingbird",
+    "author": "Robert Louis Stevenson",
     "year_published": 1903,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Sun Also Rises",
+    "author": "Emily Dickinson",
+    "year_published": 1732,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Seagull",
+    "author": "J.K. Rowling",
+    "year_published": 1996,
+    "genre": "Drama"
+}
+, {
+    "title": "The Count of Monte Cristo",
+    "author": "John Grisham",
+    "year_published": 1785,
     "genre": "Thriller"
 }
 , {
     "title": "The Wind in the Willows",
-    "author": "Tom Wolfe",
-    "year_published": 1849,
-    "genre": "Drama"
-}
-, {
-    "title": "Moby-Dick",
-    "author": "Zora Neale Hurston",
-    "year_published": 1982,
-    "genre": "Historical Fiction"
-}
-, {
-    "title": "Star Wars",
-    "author": "Ian Fleming",
-    "year_published": 1841,
-    "genre": "Adventure"
-}
-, {
-    "title": "Flowers for Algernon",
-    "author": "John Steinbeck",
-    "year_published": 1889,
+    "author": "Ralph Waldo Emerson",
+    "year_published": 1987,
     "genre": "Mystery"
 }
 , {
-    "title": "The Little Prince",
-    "author": "Walt Whitman",
-    "year_published": 1827,
-    "genre": "Comedy"
+    "title": "Brave New World",
+    "author": "Charlotte Bronte",
+    "year_published": 1747,
+    "genre": "Romance"
+}
+, {
+    "title": "The Brothers Karamazov",
+    "author": "John Steinbeck",
+    "year_published": 1851,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Alchemist",
+    "author": "Bram Stoker",
+    "year_published": 2004,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "Roald Dahl",
+    "year_published": 1856,
+    "genre": "Romance"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "Ralph Waldo Emerson",
+    "year_published": 1704,
+    "genre": "Romance"
+}
+, {
+    "title": "The Bell Jar",
+    "author": "Joseph Conrad",
+    "year_published": 2023,
+    "genre": "Adventure"
 }
 , {
     "title": "Pride and Prejudice",
-    "author": "Dylan Thomas",
-    "year_published": 1726,
-    "genre": "Adventure"
+    "author": "Edgar Allan Poe",
+    "year_published": 1969,
+    "genre": "Thriller"
 }
 , {
-    "title": "Star Wars",
-    "author": "Thomas Malory",
-    "year_published": 1904,
-    "genre": "Horror"
-}
-, {
-    "title": "Faust",
-    "author": "J.R.R. Tolkien",
-    "year_published": 1821,
+    "title": "Romeo and Juliet",
+    "author": "George Eliot",
+    "year_published": 1958,
     "genre": "Historical Fiction"
 }
 , {
     "title": "Moby-Dick",
-    "author": "Thomas Malory",
-    "year_published": 1951,
+    "author": "Emily Dickinson",
+    "year_published": 2001,
+    "genre": "Thriller"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Ken Kesey",
+    "year_published": 1981,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Isaac Asimov",
+    "year_published": 1933,
+    "genre": "Romance"
+}
+, {
+    "title": "Faust",
+    "author": "Oscar Wilde",
+    "year_published": 1898,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Color Purple",
+    "author": "James Baldwin",
+    "year_published": 1914,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "John Grisham",
+    "year_published": 1994,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Da Vinci Code",
+    "author": "George Orwell",
+    "year_published": 1875,
+    "genre": "Romance"
+}
+, {
+    "title": "Charlotte's Web",
+    "author": "Harriet Beecher Stowe",
+    "year_published": 2011,
     "genre": "Mystery"
 }
 , {
-    "title": "The Hobbit",
-    "author": "Ray Bradbury",
-    "year_published": 1789,
+    "title": "Quiet Flows the Don",
+    "author": "James Baldwin",
+    "year_published": 1968,
+    "genre": "Adventure"
+}
+, {
+    "title": "Faust",
+    "author": "E.M. Forster",
+    "year_published": 1951,
+    "genre": "Romance"
+}
+, {
+    "title": "Anne of Green Gables",
+    "author": "T.S. Eliot",
+    "year_published": 1778,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Jungle Book",
+    "author": "Philip Roth",
+    "year_published": 1991,
+    "genre": "Thriller"
+}
+, {
+    "title": "Star Wars",
+    "author": "Louisa May Alcott",
+    "year_published": 1738,
+    "genre": "Adventure"
+}
+, {
+    "title": "1984",
+    "author": "J.D. Salinger",
+    "year_published": 1906,
+    "genre": "Drama"
+}
+, {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Nathaniel Hawthorne",
+    "year_published": 1893,
     "genre": "Historical Fiction"
 }
 , {
-    "title": "Fatherland",
-    "author": "Harper Lee",
-    "year_published": 1824,
+    "title": "Alice Through the Looking Glass",
+    "author": "Samuel Beckett",
+    "year_published": 1945,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "H.G. Wells",
+    "year_published": 1926,
+    "genre": "Horror"
+}
+, {
+    "title": "The Alchemist",
+    "author": "Michael Crichton",
+    "year_published": 2014,
+    "genre": "Adventure"
+}
+, {
+    "title": "Watership Down",
+    "author": "Truman Capote",
+    "year_published": 1789,
+    "genre": "Adventure"
+}
+, {
+    "title": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Emily Dickinson",
+    "year_published": 1735,
+    "genre": "Drama"
+}
+, {
+    "title": "Steppenwolf",
+    "author": "Henry James",
+    "year_published": 1888,
+    "genre": "Drama"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "John Donne",
+    "year_published": 1727,
+    "genre": "Romance"
+}
+, {
+    "title": "Little Women",
+    "author": "Mary Shelley",
+    "year_published": 1778,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Brave New World",
+    "author": "E.M. Forster",
+    "year_published": 1813,
+    "genre": "Adventure"
+}
+, {
+    "title": "Three Comrades",
+    "author": "J.K. Rowling",
+    "year_published": 1737,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Don Quixote",
+    "author": "Bram Stoker",
+    "year_published": 1833,
+    "genre": "Mystery"
+}
+, {
+    "title": "Don Quixote",
+    "author": "Henry James",
+    "year_published": 1989,
+    "genre": "Romance"
+}
+, {
+    "title": "The Sun Also Rises",
+    "author": "John Updike",
+    "year_published": 1852,
+    "genre": "Comedy"
+}
+, {
+    "title": "Quiet Flows the Don",
+    "author": "T.S. Eliot",
+    "year_published": 1900,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Master and Margarita",
+    "author": "Isaac Asimov",
+    "year_published": 1972,
+    "genre": "Horror"
+}
+, {
+    "title": "Brave New World",
+    "author": "J.D. Vance",
+    "year_published": 1718,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Stranger",
+    "author": "Wilkie Collins",
+    "year_published": 2014,
     "genre": "Mystery"
 }
 , {
     "title": "Les Misérables",
-    "author": "Upton Sinclair",
-    "year_published": 1839,
+    "author": "Lewis Carroll",
+    "year_published": 1756,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Handmaid's Tale",
+    "author": "Mark Twain",
+    "year_published": 1750,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Mark Twain",
+    "year_published": 1878,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Ulysses",
+    "author": "William Golding",
+    "year_published": 1744,
+    "genre": "Mystery"
+}
+, {
+    "title": "Great Expectations",
+    "author": "J.K. Rowling",
+    "year_published": 1975,
+    "genre": "Adventure"
+}
+, {
+    "title": "Atlas Shrugged",
+    "author": "J.K. Rowling",
+    "year_published": 2002,
+    "genre": "Adventure"
+}
+, {
+    "title": "Anne of Green Gables",
+    "author": "Isaac Asimov",
+    "year_published": 2021,
     "genre": "Horror"
 }
 , {
     "title": "The Road",
-    "author": "Beatrix Potter",
-    "year_published": 1954,
+    "author": "D.H. Lawrence",
+    "year_published": 1770,
     "genre": "Comedy"
 }
 , {
-    "title": "Anne of Green Gables",
-    "author": "F. Scott Fitzgerald",
-    "year_published": 2019,
+    "title": "The Iliad",
+    "author": "Toni Morrison",
+    "year_published": 1831,
+    "genre": "Comedy"
+}
+, {
+    "title": "Star Wars",
+    "author": "Robert Frost",
+    "year_published": 1726,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Secret Garden",
+    "author": "Jack London",
+    "year_published": 1865,
     "genre": "Mystery"
 }
 , {
-    "title": "Pippi Longstocking",
-    "author": "John Donne",
-    "year_published": 1702,
+    "title": "A Tale of Two Cities",
+    "author": "Thomas Malory",
+    "year_published": 1995,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Green Mile",
+    "author": "Emily Dickinson",
+    "year_published": 1984,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Alchemist",
+    "author": "James Baldwin",
+    "year_published": 1717,
+    "genre": "Mystery"
+}
+, {
+    "title": "Ulysses",
+    "author": "Oscar Wilde",
+    "year_published": 1744,
+    "genre": "Drama"
+}
+, {
+    "title": "Romeo and Juliet",
+    "author": "Jane Austen",
+    "year_published": 1903,
+    "genre": "Drama"
+}
+, {
+    "title": "The Color Purple",
+    "author": "Mark Twain",
+    "year_published": 1787,
+    "genre": "Horror"
+}
+, {
+    "title": "Inferno",
+    "author": "Mark Twain",
+    "year_published": 1768,
     "genre": "Horror"
 }
 ]
