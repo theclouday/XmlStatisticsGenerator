@@ -1,6 +1,7 @@
-package org.example;
+package ua.assignmentOne;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+
 
 @JsonAutoDetect
 public class BookStatisticsItem {
