@@ -4,7 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ua.assignmentOne.model.BookStatistics;
 import ua.assignmentOne.model.BookStatisticsItem;
-import ua.assignmentOne.service.BookService;
+import ua.assignmentOne.service.BookStatisticsService;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,11 +13,11 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class BookServiceTest {
-    private BookService bookService;
+class BookStatisticsServiceTest {
+    private BookStatisticsService bookStatisticsService;
     @BeforeEach
     void prepare() {
-        bookService = new BookService(2);
+        bookStatisticsService = new BookStatisticsService(2);
     }
 
 
@@ -27,7 +27,7 @@ class BookServiceTest {
         File file = new File(".\\src\\test\\resources\\file_1.json");
         String targetFieldName = "author";
 
-        BookStatistics bookStatistics = bookService.processingDataFromFile(file, targetFieldName);
+        BookStatistics bookStatistics = bookStatisticsService.processingDataFromFile(file, targetFieldName);
         List<BookStatisticsItem> itemList = bookStatistics.getStatisticsItemList();
 
         assertNotNull(itemList);
@@ -63,10 +63,10 @@ class BookServiceTest {
     }
 
     @Test
-    void filesProcessingInvalidPathTest () {
+    void getFilesForProcessingInvalidPathTest() {
         String invalidPath = ".\\src\\test\\resources\\file_2.json";
 
-        List<String> fileNames = BookService.filesProcessing(invalidPath);
+        List<String> fileNames = BookStatisticsService.getFilesForProcessing(invalidPath);
 
         assertNull(fileNames);
     }
