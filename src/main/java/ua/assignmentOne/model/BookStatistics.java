@@ -36,6 +36,7 @@ public class BookStatistics {
 
     /**
      * An overloaded method in which we increase the value for the specified statistic element by 1.
+     *
      * @param value Value for magnification.
      */
 
@@ -45,6 +46,7 @@ public class BookStatistics {
 
     /**
      * Increase the value for the specified statistic item by the specified amount.
+     *
      * @param value Value for magnification.
      * @param count The amount by which to increase the value.
      */
@@ -60,8 +62,9 @@ public class BookStatistics {
     }
 
     /**
-     *  Merge statistics from multiple lists of BookStatistics objects.
-     * @param statsList  A list of BookStatistics objects for aggregating statistics.
+     * Merge statistics from multiple lists of BookStatistics objects.
+     *
+     * @param statsList A list of BookStatistics objects for aggregating statistics.
      */
 
     public void mergeStatistics(List<BookStatistics> statsList) {
