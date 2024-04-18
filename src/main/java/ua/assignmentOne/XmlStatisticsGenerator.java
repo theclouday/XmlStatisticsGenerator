@@ -3,7 +3,7 @@ package ua.assignmentOne;
 import ua.assignmentOne.service.BookService;
 
 
-public class Script
+public class XmlStatisticsGenerator
 {
     public static void main(String[] args) {
 
