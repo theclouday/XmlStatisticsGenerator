@@ -1,0 +1,319 @@
+[{
+    "title": "Three Comrades",
+    "author": "T.S. Eliot",
+    "year_published": 1853,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "William Golding",
+    "year_published": 1720,
+    "genre": "Adventure"
+}
+, {
+    "title": "East of Eden",
+    "author": "Arthur Conan Doyle",
+    "year_published": 1732,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Godfather",
+    "author": "Daniel Defoe",
+    "year_published": 1988,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Shining",
+    "author": "George Eliot",
+    "year_published": 1908,
+    "genre": "Horror"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "T.S. Eliot",
+    "year_published": 1811,
+    "genre": "Thriller"
+}
+, {
+    "title": "Gone with the Wind",
+    "author": "Edgar Allan Poe",
+    "year_published": 1793,
+    "genre": "Romance"
+}
+, {
+    "title": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Harper Lee",
+    "year_published": 1921,
+    "genre": "Drama"
+}
+, {
+    "title": "The Sun Also Rises",
+    "author": "Harriet Beecher Stowe",
+    "year_published": 2014,
+    "genre": "Horror"
+}
+, {
+    "title": "The Great Gatsby",
+    "author": "Ken Kesey",
+    "year_published": 1774,
+    "genre": "Horror"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "Joseph Addison",
+    "year_published": 1720,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Old Man and the Sea",
+    "author": "Sylvia Plath",
+    "year_published": 1952,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Geoffrey Chaucer",
+    "year_published": 1853,
+    "genre": "Thriller"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Harriet Beecher Stowe",
+    "year_published": 1800,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Count of Monte Cristo",
+    "author": "Walt Whitman",
+    "year_published": 1872,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Road",
+    "author": "Walt Whitman",
+    "year_published": 1813,
+    "genre": "Horror"
+}
+, {
+    "title": "The Handmaid's Tale",
+    "author": "E.M. Forster",
+    "year_published": 1813,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Lord of the Rings",
+    "author": "Edgar Allan Poe",
+    "year_published": 1862,
+    "genre": "Drama"
+}
+, {
+    "title": "The Bell Jar",
+    "author": "Emily Bronte",
+    "year_published": 1719,
+    "genre": "Thriller"
+}
+, {
+    "title": "Slaughterhouse-Five",
+    "author": "Willa Cather",
+    "year_published": 1754,
+    "genre": "Adventure"
+}
+, {
+    "title": "Anne of Green Gables",
+    "author": "E.M. Forster",
+    "year_published": 1703,
+    "genre": "Fantasy"
+}
+, {
+    "title": "A Game of Thrones",
+    "author": "George Orwell",
+    "year_published": 1891,
+    "genre": "Drama"
+}
+, {
+    "title": "The Stranger",
+    "author": "Ian Fleming",
+    "year_published": 1736,
+    "genre": "Mystery"
+}
+, {
+    "title": "Winnie-the-Pooh",
+    "author": "F. Scott Fitzgerald",
+    "year_published": 1846,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Romeo and Juliet",
+    "author": "Arthur Conan Doyle",
+    "year_published": 1863,
+    "genre": "Mystery"
+}
+, {
+    "title": "Great Expectations",
+    "author": "Agatha Christie",
+    "year_published": 1731,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "James Fenimore Cooper",
+    "year_published": 1829,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "Dylan Thomas",
+    "year_published": 1935,
+    "genre": "Mystery"
+}
+, {
+    "title": "Inferno",
+    "author": "Langston Hughes",
+    "year_published": 2010,
+    "genre": "Drama"
+}
+, {
+    "title": "Wuthering Heights",
+    "author": "Daniel Defoe",
+    "year_published": 1926,
+    "genre": "Mystery"
+}
+, {
+    "title": "Alice Through the Looking Glass",
+    "author": "Emily Dickinson",
+    "year_published": 2006,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Fatherland",
+    "author": "Jack London",
+    "year_published": 1799,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "Ernest Hemingway",
+    "year_published": 1895,
+    "genre": "Thriller"
+}
+, {
+    "title": "Atlas Shrugged",
+    "author": "John Grisham",
+    "year_published": 1705,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Bell Jar",
+    "author": "Richard Wright",
+    "year_published": 2004,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Alchemist",
+    "author": "Ken Kesey",
+    "year_published": 1965,
+    "genre": "Comedy"
+}
+, {
+    "title": "Les Misérables",
+    "author": "Flannery O'Connor",
+    "year_published": 1802,
+    "genre": "Thriller"
+}
+, {
+    "title": "Don Quixote",
+    "author": "John Updike",
+    "year_published": 1900,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Divine Comedy",
+    "author": "J.K. Rowling",
+    "year_published": 1810,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Seagull",
+    "author": "Ernest Hemingway",
+    "year_published": 1904,
+    "genre": "Drama"
+}
+, {
+    "title": "The Great Gatsby",
+    "author": "Lewis Carroll",
+    "year_published": 1771,
+    "genre": "Horror"
+}
+, {
+    "title": "All Quiet on the Western Front",
+    "author": "Thomas Hardy",
+    "year_published": 1772,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Stranger",
+    "author": "W. Somerset Maugham",
+    "year_published": 1786,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Brave New World",
+    "author": "Margaret Atwood",
+    "year_published": 1754,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Godfather",
+    "author": "Ray Bradbury",
+    "year_published": 1790,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Hobbit",
+    "author": "John Donne",
+    "year_published": 1886,
+    "genre": "Thriller"
+}
+, {
+    "title": "Ulysses",
+    "author": "Roald Dahl",
+    "year_published": 1859,
+    "genre": "Drama"
+}
+, {
+    "title": "Crime and Punishment",
+    "author": "Ian Fleming",
+    "year_published": 1797,
+    "genre": "Drama"
+}
+, {
+    "title": "The Brothers Karamazov",
+    "author": "Don DeLillo",
+    "year_published": 1953,
+    "genre": "Horror"
+}
+, {
+    "title": "And Then There Were None",
+    "author": "Truman Capote",
+    "year_published": 2000,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Hobbit",
+    "author": "Ralph Waldo Emerson",
+    "year_published": 1855,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Wind in the Willows",
+    "author": "Dylan Thomas",
+    "year_published": 1952,
+    "genre": "Horror"
+}
+, {
+    "title": "The Odyssey",
+    "author": "Bram Stoker",
+    "year_published": 1810,
+    "genre": "Drama"
+}
+]

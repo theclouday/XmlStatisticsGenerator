@@ -1,0 +1,421 @@
+[{
+    "title": "Crime and Punishment",
+    "author": "Ralph Waldo Emerson",
+    "year_published": 2010,
+    "genre": "Thriller"
+}
+, {
+    "title": "It",
+    "author": "T.S. Eliot",
+    "year_published": 1963,
+    "genre": "Thriller"
+}
+, {
+    "title": "Gulliver's Travels",
+    "author": "Saul Bellow",
+    "year_published": 1703,
+    "genre": "Romance"
+}
+, {
+    "title": "Alice Through the Looking Glass",
+    "author": "John Steinbeck",
+    "year_published": 1813,
+    "genre": "Adventure"
+}
+, {
+    "title": "Gulliver's Travels",
+    "author": "Emily Dickinson",
+    "year_published": 1875,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Road",
+    "author": "Mark Twain",
+    "year_published": 1750,
+    "genre": "Drama"
+}
+, {
+    "title": "The Sun Also Rises",
+    "author": "Jane Austen",
+    "year_published": 1779,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Bell Jar",
+    "author": "Ray Bradbury",
+    "year_published": 2000,
+    "genre": "Comedy"
+}
+, {
+    "title": "Faust",
+    "author": "Thomas Malory",
+    "year_published": 1742,
+    "genre": "Drama"
+}
+, {
+    "title": "Ulysses",
+    "author": "Don DeLillo",
+    "year_published": 1897,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Grapes of Wrath",
+    "author": "E.M. Forster",
+    "year_published": 2014,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Inferno",
+    "author": "Thomas Hardy",
+    "year_published": 1708,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Agatha Christie",
+    "year_published": 1963,
+    "genre": "Horror"
+}
+, {
+    "title": "Three Comrades",
+    "author": "Harriet Beecher Stowe",
+    "year_published": 1950,
+    "genre": "Mystery"
+}
+, {
+    "title": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Philip Roth",
+    "year_published": 1800,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Thomas Malory",
+    "year_published": 1942,
+    "genre": "Romance"
+}
+, {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "John Grisham",
+    "year_published": 1808,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Lord of the Rings",
+    "author": "Dylan Thomas",
+    "year_published": 1731,
+    "genre": "Romance"
+}
+, {
+    "title": "Faust",
+    "author": "Robert Louis Stevenson",
+    "year_published": 1794,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Count of Monte Cristo",
+    "author": "Tom Wolfe",
+    "year_published": 1712,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Brothers Karamazov",
+    "author": "Aldous Huxley",
+    "year_published": 1966,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Great Gatsby",
+    "author": "Isaac Asimov",
+    "year_published": 1790,
+    "genre": "Adventure"
+}
+, {
+    "title": "Pride and Prejudice",
+    "author": "T.S. Eliot",
+    "year_published": 1973,
+    "genre": "Drama"
+}
+, {
+    "title": "Don Quixote",
+    "author": "Herman Melville",
+    "year_published": 1735,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Scarlet Letter",
+    "author": "E.M. Forster",
+    "year_published": 1833,
+    "genre": "Thriller"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "John Steinbeck",
+    "year_published": 1739,
+    "genre": "Fantasy"
+}
+, {
+    "title": "For Whom the Bell Tolls",
+    "author": "H.G. Wells",
+    "year_published": 2020,
+    "genre": "Comedy"
+}
+, {
+    "title": "Watership Down",
+    "author": "Charles Dickens",
+    "year_published": 1831,
+    "genre": "Horror"
+}
+, {
+    "title": "The Godfather",
+    "author": "Edith Wharton",
+    "year_published": 1888,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Of Mice and Men",
+    "author": "Joseph Addison",
+    "year_published": 1900,
+    "genre": "Romance"
+}
+, {
+    "title": "The Master and Margarita",
+    "author": "Daniel Defoe",
+    "year_published": 1790,
+    "genre": "Adventure"
+}
+, {
+    "title": "Don Quixote",
+    "author": "Mark Twain",
+    "year_published": 1750,
+    "genre": "Thriller"
+}
+, {
+    "title": "Inferno",
+    "author": "Wilkie Collins",
+    "year_published": 1760,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "Robert Frost",
+    "year_published": 1915,
+    "genre": "Thriller"
+}
+, {
+    "title": "A Tale of Two Cities",
+    "author": "H.G. Wells",
+    "year_published": 1780,
+    "genre": "Horror"
+}
+, {
+    "title": "Ulysses",
+    "author": "Mark Twain",
+    "year_published": 1931,
+    "genre": "Drama"
+}
+, {
+    "title": "Alice Through the Looking Glass",
+    "author": "Saul Bellow",
+    "year_published": 1940,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Godfather",
+    "author": "Joseph Addison",
+    "year_published": 1991,
+    "genre": "Romance"
+}
+, {
+    "title": "The Green Mile",
+    "author": "Maya Angelou",
+    "year_published": 1814,
+    "genre": "Mystery"
+}
+, {
+    "title": "The Handmaid's Tale",
+    "author": "George Orwell",
+    "year_published": 1772,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Da Vinci Code",
+    "author": "Emily Bronte",
+    "year_published": 1735,
+    "genre": "Romance"
+}
+, {
+    "title": "The Great Gatsby",
+    "author": "J.M. Barrie",
+    "year_published": 1774,
+    "genre": "Thriller"
+}
+, {
+    "title": "Moby-Dick",
+    "author": "G.K. Chesterton",
+    "year_published": 1721,
+    "genre": "Thriller"
+}
+, {
+    "title": "A Game of Thrones",
+    "author": "John Milton",
+    "year_published": 1955,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Catcher in the Rye",
+    "author": "Richard Wright",
+    "year_published": 1759,
+    "genre": "Horror"
+}
+, {
+    "title": "The Da Vinci Code",
+    "author": "John Bunyan",
+    "year_published": 1987,
+    "genre": "Romance"
+}
+, {
+    "title": "The Godfather",
+    "author": "W. Somerset Maugham",
+    "year_published": 1817,
+    "genre": "Adventure"
+}
+, {
+    "title": "Star Wars",
+    "author": "Edgar Allan Poe",
+    "year_published": 1795,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Little Prince",
+    "author": "Ian Fleming",
+    "year_published": 1775,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Little Prince",
+    "author": "Zora Neale Hurston",
+    "year_published": 1948,
+    "genre": "Comedy"
+}
+, {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "Herman Melville",
+    "year_published": 1744,
+    "genre": "Horror"
+}
+, {
+    "title": "It",
+    "author": "W. Somerset Maugham",
+    "year_published": 1851,
+    "genre": "Drama"
+}
+, {
+    "title": "The Green Mile",
+    "author": "Willa Cather",
+    "year_published": 2005,
+    "genre": "Romance"
+}
+, {
+    "title": "Ulysses",
+    "author": "Charlotte Bronte",
+    "year_published": 1980,
+    "genre": "Comedy"
+}
+, {
+    "title": "Atlas Shrugged",
+    "author": "Mark Twain",
+    "year_published": 2021,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Joseph Conrad",
+    "year_published": 1761,
+    "genre": "Adventure"
+}
+, {
+    "title": "Winnie-the-Pooh",
+    "author": "William Wordsworth",
+    "year_published": 1987,
+    "genre": "Horror"
+}
+, {
+    "title": "The Count of Monte Cristo",
+    "author": "Ian Fleming",
+    "year_published": 1801,
+    "genre": "Drama"
+}
+, {
+    "title": "Pride and Prejudice",
+    "author": "William Faulkner",
+    "year_published": 1809,
+    "genre": "Mystery"
+}
+, {
+    "title": "Quiet Flows the Don",
+    "author": "Agatha Christie",
+    "year_published": 1767,
+    "genre": "Horror"
+}
+, {
+    "title": "Anna Karenina",
+    "author": "Jonathan Swift",
+    "year_published": 2017,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Seagull",
+    "author": "Bram Stoker",
+    "year_published": 1998,
+    "genre": "Drama"
+}
+, {
+    "title": "For Whom the Bell Tolls",
+    "author": "William Golding",
+    "year_published": 1932,
+    "genre": "Horror"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "Roald Dahl",
+    "year_published": 1816,
+    "genre": "Fantasy"
+}
+, {
+    "title": "The Godfather",
+    "author": "Stephen King",
+    "year_published": 1961,
+    "genre": "Historical Fiction"
+}
+, {
+    "title": "The Iliad",
+    "author": "John Grisham",
+    "year_published": 1921,
+    "genre": "Comedy"
+}
+, {
+    "title": "The Little Prince",
+    "author": "Emily Dickinson",
+    "year_published": 1748,
+    "genre": "Fantasy"
+}
+, {
+    "title": "Gone with the Wind",
+    "author": "Saul Bellow",
+    "year_published": 1819,
+    "genre": "Adventure"
+}
+, {
+    "title": "The Picture of Dorian Gray",
+    "author": "A.A. Milne",
+    "year_published": 1832,
+    "genre": "Adventure"
+}
+, {
+    "title": "Crime and Punishment",
+    "author": "H.P. Lovecraft",
+    "year_published": 1785,
+    "genre": "Mystery"
+}
+]
