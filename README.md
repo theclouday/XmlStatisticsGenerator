@@ -36,3 +36,11 @@ If we set "genre" as the second argument, we get these statistics:
 The **main** entities will be:
 · Book,
 · Author.
+
+
+I did some **tests on using different numbers of threads** when reading files. And here's what the results showed:
+1.78 ms 10 files - 2 threads
+1.55 ms 12 files - 4 threads
+1.36 ms 14 files - 6 threads
+1.65 ms 18 files - 6 threads
+1.70 ms 25 files - 12 threads
