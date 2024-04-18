@@ -1,4 +1,4 @@
-package ua.assignmentOne;
+package ua.assignmentOne.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
