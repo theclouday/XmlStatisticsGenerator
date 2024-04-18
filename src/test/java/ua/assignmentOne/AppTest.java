@@ -15,15 +15,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BookStatisticsServiceTest {
     private BookStatisticsService bookStatisticsService;
+
     @BeforeEach
     void prepare() {
-        bookStatisticsService = new BookStatisticsService(2);
+        bookStatisticsService = new BookStatisticsService();
     }
 
-
     @Test
-    void processingDataFromFileTest () throws IOException {
-
+    void processingDataFromFileTest() throws IOException {
         File file = new File(".\\src\\test\\resources\\file_1.json");
         String targetFieldName = "author";
 
