@@ -21,10 +21,10 @@ import java.util.concurrent.*;
 
 public class BookStatisticsService {
     private final ExecutorService executor;
-    private static final int DEFAULT_NUM_THREADS = 4;
+    private static final int NUM_THREADS = 4;
 
     public BookStatisticsService() {
-        this.executor = Executors.newFixedThreadPool(DEFAULT_NUM_THREADS);
+        this.executor = Executors.newFixedThreadPool(NUM_THREADS);
     }
 
     /**
