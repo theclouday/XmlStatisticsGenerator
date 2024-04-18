@@ -53,7 +53,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <mainClass>ua.assignmentOne.Script</mainClass>
+          <mainClass>ua.assignmentOne.XmlStatisticsGenerator</mainClass>
         </configuration>
       </plugin>
     </plugins>
