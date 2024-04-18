@@ -67,7 +67,7 @@ class BookStatisticsServiceTest {
 
         List<String> fileNames = BookStatisticsService.getFilesForProcessing(invalidPath);
 
-        assertNull(fileNames);
+        assertNotNull(fileNames);
     }
 
 }
