@@ -14,42 +14,44 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- *This class "BookService" contains methods for interacting with files (reading them, writing values to the file) and counting statistics.
+ * This class "BookService" contains methods for interacting with files (reading them, writing values to the file) and counting statistics.
  *
  * @class BookService
  */
 
-public class BookService {
+public class BookStatisticsService {
     private final ExecutorService executor;
 
     /**
      * Class constructor specifies the number of threads for working with files.
-     * @param numThreads   The number of threads in the pool.
+     *
+     * @param numThreads The number of threads in the pool.
      */
 
-    public BookService(int numThreads) {
+    public BookStatisticsService(int numThreads) {
         this.executor = Executors.newFixedThreadPool(numThreads);
     }
 
     /**
      * Processes files in the specified directory and returns a list of their paths.
+     *
      * @param filePath The path to the directory with the files.
      * @return fileNames as a list of file paths.
      */
 
-    public static List<String> filesProcessing(String filePath) {
+    public static List<String> getFilesForProcessing(String filePath) {
 
         List<String> fileNames = new ArrayList<>();
         File folder = new File(filePath);
 
         try {
-            if(folder.isDirectory()){
+            if (folder.isDirectory()) {
                 File[] files = folder.listFiles();
-                for (File file: files){
-                    if(file.isFile()) {
+                for (File file : files) {
+                    if (file.isFile()) {
                         fileNames.add(file.getAbsolutePath());
                     } else {
-                        System.err.println("File don`t exist.");
+                        System.err.println("File does not exist.");
                     }
                 }
             } else {
@@ -57,7 +59,7 @@ public class BookService {
                 return null;
             }
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.err.println("Error:" + e.getMessage());
             return null;
         }
@@ -66,8 +68,9 @@ public class BookService {
 
     /**
      * Processes data from a JSON file, collecting statistics on the given argument when the program starts.
-     * @param file the JSON file we need for processing.
-     * @param targetFieldName  The name of the argument for which statistics are collected.
+     *
+     * @param file            the JSON file we need for processing.
+     * @param targetFieldName The name of the argument for which statistics are collected.
      * @return A BookStatistics object with statistics data.
      * @throws IOException Appears when a file read error occurs.
      */
@@ -76,85 +79,83 @@ public class BookService {
         System.out.println("Parsing file: " + file.getAbsolutePath());
 
         JsonFactory factory = new JsonFactory();
-        JsonParser parser = factory.createParser(file);
-
         BookStatistics statistics = new BookStatistics();
 
-        JsonToken token = null;
-        while((token = parser.nextToken()) != null){
-            if(JsonToken.FIELD_NAME.equals(token)) {
-                String fieldName = parser.currentName();
-                parser.nextToken();
+        try(JsonParser parser = factory.createParser(file);) {
+            JsonToken token = null;
+            while ((token = parser.nextToken()) != null) {
+                if (JsonToken.FIELD_NAME.equals(token)) {
+                    String fieldName = parser.currentName();
+                    parser.nextToken();
 
-                if (targetFieldName.equals(fieldName)){
-                    String fieldValue = parser.getValueAsString();
-                    List<String> valuesList = Arrays.asList(fieldValue.split(", "));
+                    if (targetFieldName.equals(fieldName)) {
+                        String fieldValue = parser.getValueAsString();
+                        List<String> valuesList = Arrays.asList(fieldValue.split(", "));
 
-                    for (String value : valuesList) {
-                        statistics.incrementValue(value);
+                        for (String value : valuesList) {
+                            statistics.incrementValue(value);
+                        }
                     }
                 }
             }
         }
-        parser.close();
         return statistics;
     }
 
     /**
      * Aggregates statistics from several JSON files in the specified directory.
-     * @param filePath Path to the directory with JSON files.
+     *
+     * @param filePath        Path to the directory with JSON files.
      * @param targetFieldName The name of the argument for which statistics are collected.
      * @return A BookStatistics object with aggregated statistics.
      */
 
-    public BookStatistics aggregateStatistics(String filePath, String targetFieldName){
-        List<String> jsonFiles = filesProcessing(filePath);
+    public BookStatistics aggregateStatistics(String filePath, String targetFieldName) {
+        List<String> jsonFiles = getFilesForProcessing(filePath);
 
         List<BookStatistics> statisticsList = new ArrayList<>();
         List<Callable<BookStatistics>> tasks = new ArrayList<>();
 
-
-        for(String fileName : jsonFiles) {
+        for (String fileName : jsonFiles) {
             tasks.add(() -> {
                 try {
                     File file = new File(fileName);
                     return processingDataFromFile(file, targetFieldName);
-                }catch (Exception e) {
+                } catch (Exception e) {
                     System.err.println("Something wrong: " + e.getMessage());
                     e.printStackTrace();
                 }
                 return null;
             });
         }
-        try{
+        try {
             List<Future<BookStatistics>> futures = executor.invokeAll(tasks);
-            for (Future<BookStatistics> future : futures){
+            for (Future<BookStatistics> future : futures) {
                 try {
                     BookStatistics statistics = future.get();
                     if (statistics != null) {
-                        synchronized (statisticsList){
+                        synchronized (statisticsList) {
                             statisticsList.add(statistics);
                         }
                     }
-                } catch (ExecutionException e){
+                } catch (ExecutionException e) {
                     e.printStackTrace();
                 }
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-        executor.shutdown();
-
         return new BookStatistics(statisticsList);
     }
 
     /**
      * Generates XML file with statistics data based on aggregated data from JSON files.
-     * @param filePath Path to the directory with JSON files. Received when the user enters arguments when starting the program.
+     *
+     * @param filePath        Path to the directory with JSON files. Received when the user enters arguments when starting the program.
      * @param targetFieldName The name of the argument whose data will be aggregated and saved to an XML file. Received when the user enters arguments when starting the program.
      */
 
-    public void printStatToXmlFile(String filePath, String targetFieldName) {
+    public void generateStatisticsFromFiles(String filePath, String targetFieldName) {
 
         BookStatistics bookStatistics = aggregateStatistics(filePath, targetFieldName);
 
@@ -163,10 +164,10 @@ public class BookService {
 
         String fileName = String.format("statistics_by_%s.xml", targetFieldName);
 
-        try{
+        try {
             xmlMapper.writeValue(new File(".\\src\\main\\out\\" + fileName), bookStatistics);
             System.out.println("\nFile created successfully!");
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
