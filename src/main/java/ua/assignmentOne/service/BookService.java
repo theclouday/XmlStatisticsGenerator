@@ -124,8 +124,9 @@ public class BookService {
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         String fileName = String.format("statistics_by_%s.xml", targetFieldName);
+
         try{
-            xmlMapper.writeValue(new File("D:\\JavaProjects\\HomeAssigment\\statistik\\src\\main\\out\\" + fileName), bookStatistics);
+            xmlMapper.writeValue(new File(".\\src\\main\\out\\" + fileName), bookStatistics);
             System.out.println("\nFile created successfully!");
         }catch (Exception e){
             throw new RuntimeException(e);
