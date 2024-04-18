@@ -47,7 +47,7 @@ public class BookService {
         return fileNames;
     }
 
-    private BookStatistics processingDataFromFile(File file, String targetFieldName) throws IOException {
+    public BookStatistics processingDataFromFile(File file, String targetFieldName) throws IOException {
         System.out.println("Parsing file: " + file.getAbsolutePath());
 
         JsonFactory factory = new JsonFactory();
