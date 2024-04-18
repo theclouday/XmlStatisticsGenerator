@@ -1,12 +1,14 @@
 package ua.assignmentOne;
 
+import ua.assignmentOne.service.BookService;
+
 
 public class Script
 {
     public static void main(String[] args) {
 
-        CreatingFileWithStatistics cr = new CreatingFileWithStatistics();
-        cr.marshallingToXML(args[0], args[1]);
+        BookService bookService = new BookService(5);
+        bookService.printStatToXmlFile(args[0], args[1]);
 
     }
 }
