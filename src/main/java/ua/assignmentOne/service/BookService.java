@@ -13,12 +13,29 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
 
+/**
+ *This class "BookService" contains methods for interacting with files (reading them, writing values to the file) and counting statistics.
+ *
+ * @class BookService
+ */
+
 public class BookService {
     private final ExecutorService executor;
+
+    /**
+     * Class constructor specifies the number of threads for working with files.
+     * @param numThreads   The number of threads in the pool.
+     */
 
     public BookService(int numThreads) {
         this.executor = Executors.newFixedThreadPool(numThreads);
     }
+
+    /**
+     * Processes files in the specified directory and returns a list of their paths.
+     * @param filePath The path to the directory with the files.
+     * @return fileNames as a list of file paths.
+     */
 
     public static List<String> filesProcessing(String filePath) {
 
@@ -47,6 +64,14 @@ public class BookService {
         return fileNames;
     }
 
+    /**
+     * Processes data from a JSON file, collecting statistics on the given argument when the program starts.
+     * @param file the JSON file we need for processing.
+     * @param targetFieldName  The name of the argument for which statistics are collected.
+     * @return A BookStatistics object with statistics data.
+     * @throws IOException Appears when a file read error occurs.
+     */
+
     public BookStatistics processingDataFromFile(File file, String targetFieldName) throws IOException {
         System.out.println("Parsing file: " + file.getAbsolutePath());
 
@@ -74,6 +99,13 @@ public class BookService {
         parser.close();
         return statistics;
     }
+
+    /**
+     * Aggregates statistics from several JSON files in the specified directory.
+     * @param filePath Path to the directory with JSON files.
+     * @param targetFieldName The name of the argument for which statistics are collected.
+     * @return A BookStatistics object with aggregated statistics.
+     */
 
     public BookStatistics aggregateStatistics(String filePath, String targetFieldName){
         List<String> jsonFiles = filesProcessing(filePath);
@@ -115,6 +147,12 @@ public class BookService {
 
         return new BookStatistics(statisticsList);
     }
+
+    /**
+     * Generates XML file with statistics data based on aggregated data from JSON files.
+     * @param filePath Path to the directory with JSON files. Received when the user enters arguments when starting the program.
+     * @param targetFieldName The name of the argument whose data will be aggregated and saved to an XML file. Received when the user enters arguments when starting the program.
+     */
 
     public void printStatToXmlFile(String filePath, String targetFieldName) {
 

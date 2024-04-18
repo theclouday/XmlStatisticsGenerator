@@ -2,6 +2,9 @@ package ua.assignmentOne.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
+/**
+ * A class for storing an element of the book's statistics.
+ */
 
 @JsonAutoDetect
 public class BookStatisticsItem {

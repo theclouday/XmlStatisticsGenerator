@@ -10,6 +10,10 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A class to store statistical data of books.
+ */
+
 @JsonAutoDetect
 @JacksonXmlRootElement(localName = "statistics")
 @JsonPropertyOrder({"value", "count"})
@@ -30,13 +34,21 @@ public class BookStatistics {
         return statisticsItemList;
     }
 
-    public void setStatisticsItemList(List<BookStatisticsItem> statisticsItemList) {
-        this.statisticsItemList = statisticsItemList;
-    }
+    /**
+     * An overloaded method in which we increase the value for the specified statistic element by 1.
+     * @param value Value for magnification.
+     */
 
     public void incrementValue(String value) {
         incrementValue(value, 1);
     }
+
+    /**
+     * Increase the value for the specified statistic item by the specified amount.
+     * @param value Value for magnification.
+     * @param count The amount by which to increase the value.
+     */
+
     public void incrementValue(String value, Integer count) {
         for (BookStatisticsItem item : statisticsItemList) {
             if (item.getValue().equals(value)) {
@@ -46,6 +58,11 @@ public class BookStatistics {
         }
         statisticsItemList.add(new BookStatisticsItem(value));
     }
+
+    /**
+     *  Merge statistics from multiple lists of BookStatistics objects.
+     * @param statsList  A list of BookStatistics objects for aggregating statistics.
+     */
 
     public void mergeStatistics(List<BookStatistics> statsList) {
         for (BookStatistics stats : statsList) {
