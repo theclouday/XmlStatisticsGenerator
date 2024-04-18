@@ -1,0 +1,362 @@
+<statistics>
+  <item>
+    <value>Pride and Prejudice</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>The Sound and the Fury</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Moby-Dick</value>
+    <count>11</count>
+  </item>
+  <item>
+    <value>A Tale of Two Cities</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Adventures of Huckleberry Finn</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Steppenwolf</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Winnie-the-Pooh</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>Of Mice and Men</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Lord of the Flies</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>The Call of the Wild</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>One Hundred Years of Solitude</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>The Odyssey</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Faust</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>Jane Eyre</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Alice's Adventures in Wonderland</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>The Chronicles of Narnia</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Brave New World</value>
+    <count>9</count>
+  </item>
+  <item>
+    <value>The Picture of Dorian Gray</value>
+    <count>9</count>
+  </item>
+  <item>
+    <value>Gulliver's Travels</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>A Game of Thrones</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Mtsyri</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Little Women</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>The Catcher in the Rye</value>
+    <count>10</count>
+  </item>
+  <item>
+    <value>The Lord of the Rings</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>1984</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>Room No. 6</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>The Road</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Hitchhiker's Guide to the Galaxy</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Pippi Longstocking</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>To Kill a Mockingbird</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Don Quixote</value>
+    <count>13</count>
+  </item>
+  <item>
+    <value>East of Eden</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Inferno</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Flowers for Algernon</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Quiet Flows the Don</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Wuthering Heights</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>For Whom the Bell Tolls</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Jungle Book</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>The Great Gatsby</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>The Divine Comedy</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Slaughterhouse-Five</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>The Canterbury Tales</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>Atlas Shrugged</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>The Stranger</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>The Sun Also Rises</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Harry Potter and the Prisoner of Azkaban</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Seagull</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>The Wind in the Willows</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Star Wars</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>The Little Prince</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>The Hobbit</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Fatherland</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Les Misérables</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Anne of Green Gables</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>The Handmaid's Tale</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>The Da Vinci Code</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>The Green Mile</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Frankenstein</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Scarlet Letter</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>The Bell Jar</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>The Count of Monte Cristo</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>The Brothers Karamazov</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>The Alchemist</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Romeo and Juliet</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>The Color Purple</value>
+    <count>5</count>
+  </item>
+  <item>
+    <value>Charlotte's Web</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Alice Through the Looking Glass</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Watership Down</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Strange Case of Dr Jekyll and Mr Hyde</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Three Comrades</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Master and Margarita</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Ulysses</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Great Expectations</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>The Iliad</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>The Secret Garden</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Dracula</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>The Godfather</value>
+    <count>9</count>
+  </item>
+  <item>
+    <value>The Masque of the Red Death</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Anna Karenina</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>The Princess Bride</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>Gone with the Wind</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>The Shining</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>Treasure Island</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>The Old Man and the Sea</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>All Quiet on the Western Front</value>
+    <count>2</count>
+  </item>
+  <item>
+    <value>Crime and Punishment</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>And Then There Were None</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>It</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>The Grapes of Wrath</value>
+    <count>1</count>
+  </item>
+  <item>
+    <value>Animal Farm</value>
+    <count>1</count>
+  </item>
+</statistics>
