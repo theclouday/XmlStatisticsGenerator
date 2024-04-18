@@ -1,10 +1,12 @@
 package ua.assignmentOne.service;
 
-import com.fasterxml.jackson.core.*;
+import ua.assignmentOne.model.BookStatistics;
 
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import ua.assignmentOne.model.BookStatistics;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,22 +16,15 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * This class "BookService" contains methods for interacting with files (reading them, writing values to the file) and counting statistics.
- *
- * @class BookService
+ * This class "BookStatisticsService" contains methods for interacting with files (reading them, writing values to the file) and counting statistics.
  */
 
 public class BookStatisticsService {
     private final ExecutorService executor;
+    private static final int DEFAULT_NUM_THREADS = 4;
 
-    /**
-     * Class constructor specifies the number of threads for working with files.
-     *
-     * @param numThreads The number of threads in the pool.
-     */
-
-    public BookStatisticsService(int numThreads) {
-        this.executor = Executors.newFixedThreadPool(numThreads);
+    public BookStatisticsService() {
+        this.executor = Executors.newFixedThreadPool(DEFAULT_NUM_THREADS);
     }
 
     /**
@@ -56,12 +51,12 @@ public class BookStatisticsService {
                 }
             } else {
                 System.err.println("I did not find this path or it was written incorrectly.");
-                return null;
+                return new ArrayList<>();
             }
 
         } catch (Exception e) {
             System.err.println("Error:" + e.getMessage());
-            return null;
+            return new ArrayList<>();
         }
         return fileNames;
     }
@@ -81,7 +76,7 @@ public class BookStatisticsService {
         JsonFactory factory = new JsonFactory();
         BookStatistics statistics = new BookStatistics();
 
-        try(JsonParser parser = factory.createParser(file);) {
+        try (JsonParser parser = factory.createParser(file);) {
             JsonToken token = null;
             while ((token = parser.nextToken()) != null) {
                 if (JsonToken.FIELD_NAME.equals(token)) {
@@ -165,11 +160,11 @@ public class BookStatisticsService {
         String fileName = String.format("statistics_by_%s.xml", targetFieldName);
 
         try {
-            xmlMapper.writeValue(new File(".\\src\\main\\out\\" + fileName), bookStatistics);
+            xmlMapper.writeValue(new File(filePath + fileName), bookStatistics);
             System.out.println("\nFile created successfully!");
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.err.println("Error " + e.getMessage());
+            e.printStackTrace();
         }
-
     }
 }
