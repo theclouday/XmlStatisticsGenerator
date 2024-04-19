@@ -147,9 +147,10 @@ public class BookStatisticsService {
      *
      * @param filePath        Path to the directory with JSON files. Received when the user enters arguments when starting the program.
      * @param targetFieldName The name of the argument whose data will be aggregated and saved to an XML file. Received when the user enters arguments when starting the program.
+     * @param fileOutputPath  Path to the directory where the html file containing statistics will be generated. Received when the user enters arguments when starting the program.
      */
 
-    public void generateStatisticsFromFiles(String filePath, String targetFieldName) {
+    public void generateStatisticsFromFiles(String filePath, String targetFieldName, String fileOutputPath) {
 
         BookStatistics bookStatistics = aggregateStatistics(filePath, targetFieldName);
 
@@ -157,10 +158,11 @@ public class BookStatisticsService {
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         String fileName = String.format("statistics_by_%s.xml", targetFieldName);
-        String resultOut = filePath + "\\";
+        String resultOut = (fileOutputPath != null && !fileOutputPath.isEmpty() ? fileOutputPath : filePath);
 
+        System.out.println(resultOut);
         try {
-            xmlMapper.writeValue(new File(resultOut + fileName), bookStatistics);
+            xmlMapper.writeValue(new File(resultOut, fileName), bookStatistics);
             System.out.println("\nFile created successfully!");
         } catch (Exception e) {
             System.err.println("Error " + e.getMessage());
