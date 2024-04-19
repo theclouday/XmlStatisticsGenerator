@@ -19,7 +19,7 @@ public class XmlStatisticsGenerator {
     public static void main(String[] args) {
 
         BookStatisticsService bookStatisticsService = new BookStatisticsService();
-        bookStatisticsService.generateStatisticsFromFiles(args[0], args[1]);
+        bookStatisticsService.generateStatisticsFromFiles(args[0], args[1], args[2]);
 
     }
 }
