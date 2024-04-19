@@ -147,7 +147,7 @@ public class BookStatisticsService {
      *
      * @param filePath        Path to the directory with JSON files. Received when the user enters arguments when starting the program.
      * @param targetFieldName The name of the argument whose data will be aggregated and saved to an XML file. Received when the user enters arguments when starting the program.
-     * @param fileOutputPath  Path to the directory where the html file containing statistics will be generated. Received when the user enters arguments when starting the program.
+     * @param fileOutputPath  Path to the directory where the XML file containing statistics will be generated. Received when the user enters arguments when starting the program.
      */
 
     public void generateStatisticsFromFiles(String filePath, String targetFieldName, String fileOutputPath) {
