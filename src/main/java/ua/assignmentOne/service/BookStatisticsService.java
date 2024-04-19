@@ -75,7 +75,7 @@ public class BookStatisticsService {
         JsonFactory factory = new JsonFactory();
         BookStatistics statistics = new BookStatistics();
 
-        try (JsonParser parser = factory.createParser(file);) {
+        try (JsonParser parser = factory.createParser(file)) {
             JsonToken token = null;
             while ((token = parser.nextToken()) != null) {
                 if (JsonToken.FIELD_NAME.equals(token)) {
