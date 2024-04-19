@@ -3,7 +3,7 @@ This a console script program that parses the list of JSON files of the main ent
 **How to run the program:** 
 1) go to the root of the project directory, open cmd in it;
 2) write in cmd - "mvn clean paсkage", for correct reassembly or assembly of the project;
-3) next step writie this - "mvn exec:java -Dexec.mainClass="ua.assignmentOne.XmlStatisticsGenerator" -Dexec.args="args1 args2". Where args1 - Your path to the JSON files from which statistics will be generated, args2 - the value for which statistics will be collected, for example - "author".
+3) next step write this - "mvn exec:java -Dexec.mainClass="ua.assignmentOne.XmlStatisticsGenerator" -Dexec.args="args1 args2 args3". Where args1 - Your path to the JSON files from which statistics will be generated, args2 - the value for which statistics will be collected, for example - "author" and args3 is the path to the directory where you want to save the XML file with the collected statistics.
 
 The project also contains prepared JSON files, "./srs/main/resources/".
 An example of such a file: 
@@ -21,7 +21,7 @@ An example of such a file:
 }
 ]. 
 
-If we set "genre" as the second argument, we get these statistics:
+If we set **"genre"** as the second argument, we get these statistics:
 <statistics>
   <item>
     <value>Thriller</value>
